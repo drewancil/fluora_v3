@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools>=77.0.3"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "fluora-v3"
+version = "0.1.0"
+description = "Python library for controlling Fluora LED plants running firmware 3.x"
+license = "MIT"
+requires-python = ">=3.14"
+dependencies = []
+
+[tool.setuptools]
+packages = ["fluora"]
